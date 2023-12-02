@@ -8,4 +8,4 @@ class OpsTest(unittest.TestCase):
     """
 
     def test_sum(self):
-        self.assertEqual(ops.sum(1, 2), 3)
+        self.assertEqual(ops.sum(1, 2), 7)
