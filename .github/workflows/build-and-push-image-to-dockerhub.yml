@@ -1,9 +1,8 @@
-name: Build and push Docker image to DockerHub
+name: Build and push image to DockerHub
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
 
 jobs:
   build-image-and-push-to-registry:
