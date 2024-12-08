@@ -25,4 +25,4 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: thammami01/gh-actions-ci-cd-pipeline:1.0.${{github.run_number}}
+          tags: adesojikola/gh-actions-ci-cd-pipeline:1.0.${{github.run_number}}
